@@ -1,5 +1,5 @@
 # Website
-## Here are some guide questions that will help you out:
+# Here are some guide questions that will help you out:
 
 -What was your motivation?
 
