@@ -1,15 +1,16 @@
 # Website
 ## Here are some guide questions that will help you out:
 
-##What was your motivation?
-##Why did you build this project?
+-What was your motivation?
 
-##What problem does it solve?
+-Why did you build this project?
 
-##What did you learn?
+-What problem does it solve?
 
-##What makes your project stand out?
+-What did you learn?
 
-##If your project has a lot of features, consider adding a "Features" section and listing them here.
+-What makes your project stand out?
+
+-If your project has a lot of features, consider adding a "Features" section and listing them here.
 
 
