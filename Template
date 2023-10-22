@@ -6,11 +6,13 @@
 -->
 
 <html lang="en">
+<body style="background-color:lightgray;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firstname Lastname - Web Developer Portfolio</title>
 </head>
+
 <body>
 
 
@@ -27,29 +29,23 @@
     
     <nav>
         <ul>
-            <li><a href="Bio.html">Bio</a></li>
-            <li><a href="Scholastic Achievements.html">Scholastic Achievments</a></li>
-            <li><a href="Career Goals.html">Career Goals</a></li>
-            <li><a href="Interests.html">Interests</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Bio.asp">Bio</a></li>
+            <li><a href="Scholastic Achievements.asp">Scholastic Achievments</a></li>
+            <li><a href="Career Goals.asp">Career Goals</a></li>
+            <li><a href="Interests.asp">Interests</a></li>
+            <li><a href="Contact.asp">Contact</a></li>
         </ul>
     </nav>
 
     <!-- Main Content Section -->
     <!-- Give a brief introduction for the website -->
-
+	
     <main>
-        <h5>Welcome and Thank You for visiting my Portfoilio</h5>
+        <p>Welcome and Thank You for visiting my Portfoilio!<br>
+        Please feel free to explore and learn more about me and my professional aspirations.</p>
         
-        <p>Please feel free to explore and learn more about me and professional asspirations.</p>
-        
-        <p>$ymbol</p>
-    </main>
-
-    <!-- Footer Section (You can add a footer here if needed) -->
-
-</body>
-</html>
-    </footer>
+        <p><strong> $ymbol </strong></p>
+	</main>
+    
 </body>
 </html>
