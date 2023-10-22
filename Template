@@ -6,15 +6,14 @@
      					-->
 
 <html lang="en">
-<body style="background-color:lightgray;">    
 
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
 
-	<head>
-		<meta charset="utf-8">
-		<title>Portfolio</title>
+</head>
 
-	</head>
-    	<body>
+<body>
 
 	
     <!-- Header Section -->
@@ -22,22 +21,7 @@
 		<h1> Kai Thunberg	</h1>
 		<h2> Simple Solutions for Simple Web Sites </h2>
 
-    <!-- Main Content Section -->
-    <!-- Give a brief introduction for the website -->
-	
-    	<main>
-        	<p>
-        		Welcome and Thank You for visiting my Portfolio!<br>
-        		Please feel free to explore and learn more about me and my professional aspirations.
-            																											</p>
-                                                                                                                        	<p>
-            		<b> Cheers,</b><br>                                                                                               <i> -Kai </i>
-         	</p>
-        
-	        <p><strong> $ymbol </strong></p>
-		</main>
-  
-<!-- Navigation Section -->
+    <!-- Navigation Section -->
     <!-- Provides for fast navigation throughtout the website -->
     
     	<nav>
@@ -48,6 +32,22 @@
             	<li><a href="Interests.asp">Interests</a></li>
             	<li><a href="Contact.asp">Contact</a></li>
        		 </ul>
-   	</nav>
+   	</nav>    
+    <!-- Main Content Section -->
+    <!-- Give a brief introduction for the website -->
+	
+    	<main>
+        	<p>
+        		Welcome and Thank You for visiting my Portfolio!<br>
+        		Please feel free to explore and learn more about me and my professional aspirations.
+            																											</p>
+                                                                                                                        	<p>
+            		<b> Cheers,</b><br>
+			<i> -Kai </i>
+         	</p>
+        
+	        <p><strong> $ymbol </strong></p>
+		</main>
+  
 </body>
 </html>
