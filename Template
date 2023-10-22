@@ -1,50 +1,47 @@
 <!DOCTYPE html>
-    <!-- 
-    Created by: Kai Thunberg
-    File Name: Personal Portfolio
-    Date: October 19, 2023
-	-->
 <html lang="en">
-<body style="background-color:lightgray;">
+<body style="background-color:lightgray;">    
 
-<body>
+<!-- 
+    	Created by: Kai Thunberg
+   	 File Name: Personal Portfolio
+   	 Date: October 19, 2023
+     					-->
+	<head>
+		<meta charset="utf-8">
+		<title>Portfolio</title>
 
 
-    <!-- Header Section -->
-    <!-- We want to immediately let the viewer know who the subject of the website is -->
-    
-    <header>
-        <h1>Kai Thunberg</h1>
-        <h2>Providing Simple Web Development Solutions</h2>
-    </header>
+    	<body>
+
 
     <!-- Navigation Section -->
     <!-- Provides for fast navigation throughtout the website -->
     
-    <nav>
-        <ul>
-            <li><a href="Bio.asp">Bio</a></li>
-            <li><a href="Scholastic Achievements.asp">Scholastic Achievments</a></li>
-            <li><a href="Career Goals.asp">Career Goals</a></li>
-            <li><a href="Interests.asp">Interests</a></li>
-            <li><a href="Contact.asp">Contact</a></li>
-        </ul>
-    </nav>
+    	<nav>
+        	<ul>
+           	 <li><a href="Bio.asp">Bio</a></li>
+            	<li><a href="Scholastic Achievements.asp">Scholastic Achievments</a></li>
+           	 <li><a href="Career Goals.asp">Career Goals</a></li>
+            	<li><a href="Interests.asp">Interests</a></li>
+            	<li><a href="Contact.asp">Contact</a></li>
+       		 </ul>
+   	</nav>
 
     <!-- Main Content Section -->
     <!-- Give a brief introduction for the website -->
 	
-    <main>
-        <p>
-        	Welcome and Thank You for visiting my Portfoilio!<br>
-        	Please feel free to explore and learn more about me and my professional aspirations.
+    	<main>
+        	<p>
+        		Welcome and Thank You for visiting my Portfoilio!<br>
+        		Please feel free to explore and learn more about me and my professional aspirations.
             																											</p>
                                                                                                                         	<p>
-            	<b> Cheers,</b><br>                                                                                               <i> -Kai </i>
-         </p>
+            		<b> Cheers,</b><br>                                                                                               <i> -Kai </i>
+         	</p>
         
-        <p><strong> $ymbol </strong></p>
-	</main>
+	        <p><strong> $ymbol </strong></p>
+		</main>
     
 </body>
 </html>
