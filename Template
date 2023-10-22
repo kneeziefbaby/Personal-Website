@@ -1,17 +1,11 @@
 <!DOCTYPE html>
-<!-- 
+    <!-- 
     Created by: Kai Thunberg
     File Name: Personal Portfolio
     Date: October 19, 2023
--->
-
+	-->
 <html lang="en">
 <body style="background-color:lightgray;">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firstname Lastname - Web Developer Portfolio</title>
-</head>
 
 <body>
 
@@ -41,8 +35,13 @@
     <!-- Give a brief introduction for the website -->
 	
     <main>
-        <p>Welcome and Thank You for visiting my Portfoilio!<br>
-        Please feel free to explore and learn more about me and my professional aspirations.</p>
+        <p>
+        	Welcome and Thank You for visiting my Portfoilio!<br>
+        	Please feel free to explore and learn more about me and my professional aspirations.
+            																											</p>
+                                                                                                                        	<p>
+            	<b> Cheers,</b><br>                                                                                               <i> -Kai </i>
+         </p>
         
         <p><strong> $ymbol </strong></p>
 	</main>
