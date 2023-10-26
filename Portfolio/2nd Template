@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- 
+    	Created by: Kai Thunberg
+   	 File Name: Personal Portfolio
+   	 Date: October 19, 2023
+     					-->
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+</head>
+
+<body>
+
+	
+    <!-- Header Section -->
+    <!-- Introduce the Viewer to the subject of the website -->
+		<img src="git@github.com:kneeziefbaby/Personal-Website.git/images/kaithunberg.png" alt="Kai Thunberg" width="360" height="480">
+		<h1> Kai Thunberg	</h1>
+		<h2> Simple Solutions for Simple Web Sites </h2>
+
+    <!-- Navigation Section -->
+    <!-- Provides for fast navigation throughtout the website -->
+    
+    	<nav>
+        	<ul>
+           	 <li><a href="Bio.asp">Bio</a></li>
+            	<li><a href="Scholastic Achievements.asp">Scholastic Achievments</a></li>
+           	 <li><a href="Career Goals.asp">Career Goals</a></li>
+            	<li><a href="Interests.asp">Interests</a></li>
+            	<li><a href="Contact.asp">Contact</a></li>
+       		 </ul>
+   	</nav>    
+    <!-- Main Content Section -->
+    <!-- Give a brief introduction for the website -->
+	
+    	<main>
+        	<p>
+        		Welcome and Thank You for visiting my Portfolio!<br>
+        		Please feel free to explore and learn more about me and my professional aspirations.
+            																											</p>
+                                                                                                                        	<p>
+            		<b> Cheers,</b><br>
+			<i> -Kai </i>
+         	</p>
+        
+	        <p><strong> $ymbol </strong></p>
+		</main>
+  
+</body>
+</html>
