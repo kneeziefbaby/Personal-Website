@@ -10,6 +10,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Portfolio</title>
+	<img src="/images/kaithunberg.png" alt="Kai Thunberg" width="360" height="480">
+
 </head>
 
 <body>
@@ -17,7 +19,7 @@
 	
     <!-- Header Section -->
     <!-- Introduce the Viewer to the subject of the website -->
-		<img src="git@github.com:kneeziefbaby/Personal-Website.git/images/kaithunberg.png" alt="Kai Thunberg" width="360" height="480">
+		
 		<h1> Kai Thunberg	</h1>
 		<h2> Simple Solutions for Simple Web Sites </h2>
 
