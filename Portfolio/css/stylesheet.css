@@ -2,6 +2,11 @@
 /* Created by:Kai Thunberg on 11/14/2023 Filename: stylesheet.css */
 
 /* CSS Reset Rule */
+	body, h1, h2, h3, p, ul, ol, li, img {
+	margin: 0;
+	padding: 0;
+	border: 0;	
+	}
 
 /* Images Responsive Rule */
 /* Display images as a block & Sets Max Width to 100% */
@@ -9,18 +14,29 @@
 		max-width: 100%;
 		display: block;
 	}
+
 /* Removes Bullets from Nav Menu */
 	nav {list-style:none;
 	}
-	nav u1 {list-style: none;
+
+	nav ul {list-style:none;
 	}
+
 /* Style for Headers */
 
-/* Remove Underlines from Links */
-	a { text-decoration: none;
-	}
-/* Remove Bullets from Nav */
+/* Set Link Color, Style, and Change Hover Color */
 
+	/* Remove Underlines from Links */
+	/*Sets Initial Color of Links */
+	a {text-decoration: none;
+	   color: #050592;
+	} 
+	
+	/*Change Hover Color*/
+	a:hover {color:#c50485;
+	}
 /* High Contrast for Readability */
 	
-
+	body {background-color: #c5baba;
+			color: #0e0909;
+	}
