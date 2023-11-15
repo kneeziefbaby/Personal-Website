@@ -9,8 +9,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Portfolio</title>
-
+	<title>Page Title</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -27,10 +27,10 @@
     	<nav>
         	<ul>
            	 <li><a href="Bio.asp">Bio</a></li>
-            	<li><a href="Scholastic Achievements.asp">Scholastic Achievments</a></li>
+             <li><a href="Scholastic Achievements.asp">Scholastic Achievments</a></li>
            	 <li><a href="Career Goals.asp">Career Goals</a></li>
-            	<li><a href="Interests.asp">Interests</a></li>
-            	<li><a href="Contact.asp">Contact</a></li>
+             <li><a href="Interests.asp">Interests</a></li>
+             <li><a href="Contact.asp">Contact</a></li>
        		 </ul>
    	</nav>    
     <!-- Main Content Section -->
@@ -47,7 +47,13 @@
          	</p>
         
 	        <p><strong> $ymbol </strong></p>
+			<div></div>
 		</main>
-  
-</body>
+	<footer>
+		<!----Add a Copright symbol showing ownership as well as a contact email-->
+		<center>
+			<p>Copyright 2023 My Awesome Website.©   All rights reserved.  <br>  Contact us at Email: <a href="mailto:ke.thunberg@pack.csupueblo.edu">ke.thunberg@pack.csupueblo.edu</a></p>
+		</center>	
+		</footer>
+	</body>
 </html>
