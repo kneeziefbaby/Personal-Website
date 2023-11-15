@@ -13,9 +13,9 @@
 
 -If your project has a lot of features, consider adding a "Features" section and listing them here.
 
-# Project Title:
+# Project Tite:
 
-# Project Description:
+# Project Desciption:
 
 # Credits:
 

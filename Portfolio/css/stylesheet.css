@@ -1,0 +1,26 @@
+
+/* Created by:Kai Thunberg on 11/14/2023 Filename: stylesheet.css */
+
+/* CSS Reset Rule */
+
+/* Images Responsive Rule */
+/* Display images as a block & Sets Max Width to 100% */
+	img {
+		max-width: 100%;
+		display: block;
+	}
+/* Removes Bullets from Nav Menu */
+	nav {list-style:none;
+	}
+	nav u1 {list-style: none;
+	}
+/* Style for Headers */
+
+/* Remove Underlines from Links */
+	a { text-decoration: none;
+	}
+/* Remove Bullets from Nav */
+
+/* High Contrast for Readability */
+	
+
