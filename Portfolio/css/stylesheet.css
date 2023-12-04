@@ -15,6 +15,13 @@
 		display: block;
 	}
 
+/* Links stylesheet to all webpages */
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/stylesheet.css'>
+<head>
+
 /* Removes Bullets from Nav Menu */
 	nav {list-style:none;
 	}
@@ -23,20 +30,39 @@
 	}
 
 /* Style for Headers */
+	h1,h2, h3 {
+		font-family: 'Arial'. sans-serif;
+	}
 
-/* Set Link Color, Style, and Change Hover Color */
-
-	/* Remove Underlines from Links */
-	/*Sets Initial Color of Links */
+/* Remove Underlines from Links & Sets Initial Color of Links */
 	a {text-decoration: none;
 	   color: #050592;
 	} 
 	
 	/*Change Hover Color*/
-	a:hover {color:#c50485;
+OA	a:hover {color:#c50485;
 	}
 /* High Contrast for Readability */
 	
 	body {background-color: #c5baba;
 			color: #0e0909;
+
+	}
+/*Styles for header, nav, main, and footer */
+
+header {
+	background-color: #f4f4f4;
+	color: #333;
+	}
+
+nav {	
+	background-color:#555;
+	color: #fff;
+	padding: 10px;
+	}
+main {
+	padding:20px;
+	}
+footer {
+	padding: 10px;
 	}
