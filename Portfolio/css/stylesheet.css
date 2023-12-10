@@ -49,7 +49,7 @@ OA	a:hover {color:#c50485;
 	}
 /* High Contrast for Readability */
 	
-	body {background-color: #c5baba;
+	body {background-color: #b7b7b7;
 			color: #0e0909;
 
 /* General styles for all screen sizes */
@@ -75,12 +75,12 @@ OA	a:hover {color:#c50485;
 	/*Styles for header, nav, main, and footer */
 
 header {
-	background-color: #f4f4f4;
+	background-color: #b7b7b7;
 	color: #333;
 	}
 
 nav {	
-	background-color:#7a7a7a;
+	background-color:#a1a0a0;
 	color: #fff;
 	padding: 10px;
 	}
