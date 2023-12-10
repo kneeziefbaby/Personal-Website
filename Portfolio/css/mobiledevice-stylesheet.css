@@ -58,21 +58,34 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-
-@media only screen and (max-width: 800px) {
-    nav {
-        display: none; /* Show the navigation on small screens */
+/* Styles for mobile devices */
+    .mobile-content {
+        display: block; /* Display mobile-specific content */
+  }
+  
+/* Styles for Tablet ViewPorts */
+    @media (min-width: 768px) {
+        .mobile-content {
+        display: none; /* Hide mobile-specific content on tablets */
     }
-
-    nav a {
-        border-bottom: 1px solid rgba(34, 109, 38, 0.686);
+        .tablet-desktop-content {
+        display: block; /* Show tablet or desktop-specific content */
     }
-
-    #container nav {
-        display: none; /* Initially hide the navigation on small screens */
+  }
+  
+  /* Styles for Desktop Viewports */
+  @media (min-width: 1025px) {
+        .tablet-desktop-content {
+        display: none; /* Hide tablet or desktop-specific content on smaller desktop screens */
     }
-
-    #menu-icon {
-        display: block; /* Show the menu icon on small screens */
+        .desktop-content {
+        display: block; /* Show desktop-specific content */
     }
-}
+  
+/* Styles for desktop content when hovered */
+        .desktop-content:hover {
+        background-color: rgb(208, 30, 17);
+        color: black;
+    }
+  }
+  
