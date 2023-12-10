@@ -31,7 +31,7 @@
 
 /* Style for Headers */
 	h1,h2, h3 {
-		font-family: 'Arial'. sans-serif;
+		font-family: 'Arial', sans-serif;
 	}
 
 /* Remove Underlines from Links & Sets Initial Color of Links */
@@ -48,14 +48,14 @@ OA	a:hover {color:#c50485;
 			color: #0e0909;
 
 /* General styles for all screen sizes */
-		font-family: 'Arial', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 	}
 
 /* Styles for a mobile viewport using a media query */
 	@media only screen and (max-width: 600px) {
 		/* Styles for primary content */
 		.primary-content {
-			background-color: #f2f2f2;
+			background-color: #555;
 			padding: 10px;
 			margin: 10px;
 			border-radius: 5px;
@@ -64,7 +64,7 @@ OA	a:hover {color:#c50485;
 /* Styles for secondary content */
 		.secondary-content {
 			font-style: italic;
-			color: #888;
+			color: #555;
 		}
 
 	/*Styles for header, nav, main, and footer */
@@ -84,4 +84,5 @@ main {
 	}
 footer {
 	padding: 10px;
+	}
 	}

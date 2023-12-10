@@ -1,0 +1,78 @@
+/*Kai Thunberg
+*December 8, 2023
+*mobiledevices-stylesheet.css
+*/
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5baba;
+}
+
+#container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #555;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display:block; 
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #050592;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #c50485;
+}
+
+#menu-icon {
+    display:block; 
+    background-color: #1a581daf;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    nav {
+        display: none; /* Show the navigation on small screens */
+    }
+
+    nav a {
+        border-bottom: 1px solid rgba(34, 109, 38, 0.686);
+    }
+
+    #container nav {
+        display: none; /* Initially hide the navigation on small screens */
+    }
+
+    #menu-icon {
+        display: block; /* Show the menu icon on small screens */
+    }
+}
