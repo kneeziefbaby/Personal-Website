@@ -20,12 +20,12 @@
 		border-radius: 10px;
 	}
 
-/* Links stylesheet to all webpages */
+/* Links stylesheet to all webpages -Removed for mobile
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/stylesheet.css'>
-<head>
+<head>*/
 
 /* Removes Bullets from Nav Menu */
 	nav {list-style:none;
