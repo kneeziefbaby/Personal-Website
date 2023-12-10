@@ -47,8 +47,27 @@ OA	a:hover {color:#c50485;
 	body {background-color: #c5baba;
 			color: #0e0909;
 
+/* General styles for all screen sizes */
+		font-family: 'Arial', sans-serif;
 	}
-/*Styles for header, nav, main, and footer */
+
+/* Styles for a mobile viewport using a media query */
+	@media only screen and (max-width: 600px) {
+		/* Styles for primary content */
+		.primary-content {
+			background-color: #f2f2f2;
+			padding: 10px;
+			margin: 10px;
+			border-radius: 5px;
+		}
+
+/* Styles for secondary content */
+		.secondary-content {
+			font-style: italic;
+			color: #888;
+		}
+
+	/*Styles for header, nav, main, and footer */
 
 header {
 	background-color: #f4f4f4;
