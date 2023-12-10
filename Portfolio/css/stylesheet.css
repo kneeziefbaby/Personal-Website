@@ -60,7 +60,7 @@ OA	a:hover {color:#c50485;
 	@media only screen and (max-width: 600px) {
 		/* Styles for primary content */
 		.primary-content {
-			background-color: #555;
+			background-color: #aeaeae;
 			padding: 10px;
 			margin: 10px;
 			border-radius: 5px;
@@ -69,7 +69,7 @@ OA	a:hover {color:#c50485;
 /* Styles for secondary content */
 		.secondary-content {
 			font-style: italic;
-			color: #555;
+			color: #979696;
 		}
 
 	/*Styles for header, nav, main, and footer */
@@ -80,7 +80,7 @@ header {
 	}
 
 nav {	
-	background-color:#555;
+	background-color:#7a7a7a;
 	color: #fff;
 	padding: 10px;
 	}
