@@ -90,4 +90,39 @@ main {
 footer {
 	padding: 10px;
 	}
+
+/* New style for the career-goals-container */
+.career-goals-container {
+    background-color: #918e8e;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* New styles for the CSS grid layout */
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns with a 1:2 ratio */
+    gap: 20px; /* Gap between grid items */
+}
+
+.career-goals-container {
+    grid-column: span 2; /* Span across both columns */
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add text shadow to header text */
+header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Add box shadow to main content container */
+main {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 	}
