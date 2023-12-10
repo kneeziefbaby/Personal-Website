@@ -1,0 +1,91 @@
+/*Kai Thunberg
+*December 8, 2023
+*mobiledevices-stylesheet.css
+*/
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5baba;
+}
+
+#container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #555;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display:block; 
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #050592;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #c50485;
+}
+
+#menu-icon {
+    display:block; 
+    background-color: #1a581daf;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Styles for mobile devices */
+    .mobile-content {
+        display: block; /* Display mobile-specific content */
+  }
+  
+/* Styles for Tablet ViewPorts */
+    @media (min-width: 768px) {
+        .mobile-content {
+        display: none; /* Hide mobile-specific content on tablets */
+    }
+        .tablet-desktop-content {
+        display: block; /* Show tablet or desktop-specific content */
+    }
+  }
+  
+  /* Styles for Desktop Viewports */
+  @media (min-width: 1025px) {
+        .tablet-desktop-content {
+        display: none; /* Hide tablet or desktop-specific content on smaller desktop screens */
+    }
+        .desktop-content {
+        display: block; /* Show desktop-specific content */
+    }
+  
+/* Styles for desktop content when hovered */
+        .desktop-content:hover {
+        background-color: rgb(208, 30, 17);
+        color: black;
+    }
+  }
+  

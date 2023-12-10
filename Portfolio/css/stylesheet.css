@@ -1,0 +1,128 @@
+
+/* Created by:Kai Thunberg on 11/14/2023 Filename: stylesheet.css */
+
+/* CSS Reset Rule */
+	body, h1, h2, h3, p, ul, ol, li, img {
+	margin: 0;
+	padding: 0;
+	border: 0;	
+	}
+
+/* Images Responsive Rule */
+/* Display images as a block & Sets Max Width to 100% */
+	img {
+		max-width: 100%;
+		display: block;
+	}
+
+/* Rule to adjust corners on image */
+	.primary-content img {
+		border-radius: 10px;
+	}
+
+/* Links stylesheet to all webpages -Removed for mobile
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/stylesheet.css'>
+<head>*/
+
+/* Removes Bullets from Nav Menu */
+	nav {list-style:none;
+	}
+
+	nav ul {list-style:none;
+	}
+
+/* Style for Headers */
+	h1,h2, h3 {
+		font-family: 'Arial', sans-serif;
+	}
+
+/* Remove Underlines from Links & Sets Initial Color of Links */
+	a {text-decoration: none;
+	   color: #050592;
+	} 
+	
+	/*Change Hover Color*/
+OA	a:hover {color:#c50485;
+	}
+/* High Contrast for Readability */
+	
+	body {background-color: #aeaeae;
+			color: #0e0909;
+
+/* General styles for all screen sizes */
+		font-family: 'Open Sans', sans-serif;
+	}
+
+/* Styles for a mobile viewport using a media query */
+	@media only screen and (max-width: 600px) {
+		/* Styles for primary content */
+		.primary-content {
+			background-color: #aeaeae;
+			padding: 10px;
+			margin: 10px;
+			border-radius: 5px;
+		}
+
+/* Styles for secondary content */
+		.secondary-content {
+			font-style: italic;
+			color: #aeaeae;
+		}
+
+	/*Styles for header, nav, main, and footer */
+
+header {
+	background-color: #aeaeae;
+	color: #333;
+	}
+
+nav {	
+	background-color:#807e7e;
+	color: #ada3a3;
+	padding: 10px;
+	}
+main {
+	padding:20px;
+	}
+footer {
+	padding: 10px;
+	}
+
+/* New style for the career-goals-container */
+.career-goals-container {
+    background-color: #918e8e;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* New styles for the CSS grid layout */
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns with a 1:2 ratio */
+    gap: 20px; /* Gap between grid items */
+}
+
+.career-goals-container {
+    grid-column: span 2; /* Span across both columns */
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add text shadow to header text */
+header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Add box shadow to main content container */
+main {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+	}
