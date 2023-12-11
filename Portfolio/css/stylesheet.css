@@ -23,9 +23,9 @@ img {
 }
 
 /* Removes Bullets from Nav Menu */
-nav, nav ul {
+/* nav, nav ul {
 	list-style: none;
-}
+} */
 
 /* Style for Headers */
 h1, h2, h3 {
@@ -72,12 +72,96 @@ body {
 		color: #070707;
 	}
 
+	/* Hamburger menu button styling */
+.hamburger-menu {
+    display: block; /* Show the hamburger menu button for all viewports */
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
+}
+
+/* Hamburger menu bars styling */
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+/* Menu container styling */
+.menu-container {
+    display: none;
+    /* Add other styles as needed for your menu */
+}
+
+/* Apply styles when the menu is open */
+body.menu-open .menu-container {
+    display: block;
+}
+
+/* Other styles for your navigation menu */
+nav {
+    background-color: #aeaeae;
+    color: #070707;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* Add this to your existing CSS file */
+@media only screen and (max-width: 600px) {
+    /* Styles for header, nav, main, and footer */
+    header {
+        background-color: #aeaeae;
+        color: #070707;
+    }
+
+    /* Hamburger menu button styling */
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 10px;
+    }
+
+    /* Hamburger menu bars styling */
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 0;
+    }
+
+    /* Menu container styling */
+    .menu-container {
+        display: none;
+    }
+
+    /* Apply this style when the menu is open */
+    body.menu-open .menu-container {
+        display: block;
+    }
+}
+
+	/* Original styles for nav - Commented Out */
+	/*
 	nav {
 		background-color: #807e7e;
 		color: #ada3a3;
 		padding: 10px;
 	}
-
+	*/
+	
 	main {
 		padding: 20px;
 	}
@@ -120,4 +204,4 @@ body {
 	main {
 		box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 	}
-}
+

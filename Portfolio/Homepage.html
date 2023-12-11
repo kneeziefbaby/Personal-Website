@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/mobiledevice-stylesheet.css">
+    <script defer src="script.js"></script>
     <!-- Apply font to Heading and Figure elements -->
     <style>
         /* Reset styles for common elements */
@@ -39,10 +40,58 @@
             text-align: center;
             margin-top: 0.5rem;
         }
+
+        /* Hamburger menu button styling */
+        .hamburger-menu {
+            display: none; /* Hide by default for larger viewports */
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 10px;
+        }
+
+        /* Hamburger menu bars styling */
+        .bar {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: #333;
+            margin: 5px 0;
+        }
+
+        /* Menu container styling */
+        .menu-container {
+            display: none;
+            /* Add other styles as needed for your menu */
+        }
+
+        /* Apply styles when the menu is open */
+        body.menu-open .menu-container {
+            display: block;
+        }
     </style>
 </head>
 
 <body>
+
+    <!-- Hamburger menu button -->
+    <button class="hamburger-menu" id="hamburgerBtn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+
+    <!-- Hamburger menu container -->
+    <div class="menu-container" id="menuContainer">
+        <!-- Add your menu items here -->
+        <ul>
+            <li><a href="Bio.asp">Bio</a></li>
+            <li><a href="Scholastic Achievements.asp">Scholastic Achievements</a></li>
+            <li><a href="Career Goals.asp">Career Goals</a></li>
+            <li><a href="Interests.asp">Interests</a></li>
+            <li><a href="Contact.asp">Contact</a></li>
+        </ul>
+    </div>
 
     <!-- Header Section -->
     <!-- Introduce the Viewer to the subject of the website -->
@@ -94,6 +143,7 @@
     <footer>
         <p>©2023 MyWebsite. All rights reserved. <br> Contact Email: <a href="mailto:ke.thunberg@pack.csupueblo.edu">ke.thunberg@pack.csupueblo.edu</a></p>
     </footer>
+
 </body>
 
 </html>
