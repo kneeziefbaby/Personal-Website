@@ -1,15 +1,15 @@
-/*Kai Thunberg
-*December 8, 2023
-*mobiledevices-stylesheet.css
+/* Kai Thunberg
+   December 8, 2023
+   mobiledevices-stylesheet.css
 */
 
-
-
+/* General styles for all viewports */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #c5baba;
+    background-color: #f2f2f2; /* Light gray background for better contrast */
+    color: #333; /* Darker text for better readability */
 }
 
 #container {
@@ -19,8 +19,8 @@ body {
 }
 
 header {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #555; /* Darker gray header background */
+    color: #fff; /* White text for header */
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -28,11 +28,11 @@ header {
 }
 
 nav {
-    background-color: #555;
+    background-color: #777; /* Darker gray navigation background */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
-    display:block; 
+    display: block;
 }
 
 nav a {
@@ -48,8 +48,8 @@ nav a:hover {
 }
 
 #menu-icon {
-    display:block; 
-    background-color: #1a581daf;
+    display: block;
+    background-color: #444; /* Darker gray menu icon background */
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -59,33 +59,106 @@ nav a:hover {
 }
 
 /* Styles for mobile devices */
-    .mobile-content {
-        display: block; /* Display mobile-specific content */
-  }
-  
+.mobile-content {
+    display: block;
+}
+
 /* Styles for Tablet ViewPorts */
-    @media (min-width: 768px) {
-        .mobile-content {
-        display: none; /* Hide mobile-specific content on tablets */
+@media (min-width: 768px) {
+    .mobile-content {
+        display: none;
     }
-        .tablet-desktop-content {
-        display: block; /* Show tablet or desktop-specific content */
+    .tablet-desktop-content {
+        display: block;
     }
-  }
-  
-  /* Styles for Desktop Viewports */
-  @media (min-width: 1025px) {
-        .tablet-desktop-content {
-        display: none; /* Hide tablet or desktop-specific content on smaller desktop screens */
+}
+
+/* Styles for Desktop Viewports */
+@media (min-width: 1025px) {
+    .tablet-desktop-content {
+        display: none;
     }
-        .desktop-content {
-        display: block; /* Show desktop-specific content */
+    .desktop-content {
+        display: block;
     }
-  
-/* Styles for desktop content when hovered */
-        .desktop-content:hover {
-        background-color: rgb(208, 30, 17);
-        color: black;
+
+    .desktop-content:hover {
+        background-color: #d01e11; /* Darker red hover color */
+        color: #000; /* Black text on hover for better contrast */
     }
-  }
-  
+}
+
+/* Additional styling for the table */
+.technological-proficiencies-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.technological-proficiencies-table th,
+.technological-proficiencies-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.technological-proficiencies-table th {
+    background-color: #ddd; /* Light gray header background for the table */
+}
+
+/* New rule for mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .technological-proficiencies-table th,
+    .technological-proficiencies-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .technological-proficiencies-table th {
+        text-align: center;
+    }
+}
+
+/* Additional styling for the form */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333; /* Darker gray submit button background */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for mobile devices */
+@media screen and (max-width: 600px) {
+    input[type="text"] {
+        width: calc(100% - 16px);
+    }
+}
+
+/* Styles for Tablet ViewPorts */
+@media (min-width: 768px) {
+    /* Add specific tablet styles here if needed */
+}
+
+/* Styles for Desktop Viewports */
+@media (min-width: 1025px) {
+    /* Add specific desktop styles here if needed */
+}
