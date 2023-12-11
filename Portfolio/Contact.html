@@ -1,103 +1,144 @@
 <!DOCTYPE html>
-<!-- 
-	Created by: Kai Thunberg
-	File Name: Personal Portfolio
-	Date: November 13, 2023
+<!--
+    Created by: Kai Thunberg
+    File Name: Personal Portfolio
+    Date: November 13, 2023
 -->
 
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact Page</title>
-	<link rel="stylesheet" href="css/stylesheet.css">
-	<link rel="stylesheet" href="css/mobiledevice-stylesheet.css">
-	<style>
-		body, h1, h2, h3, p, ul, li {
-			margin: 0;
-			padding: 0;
-			border: 0;
-		}
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    
+    <!-- Stylesheets for desktop and mobile devices -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/mobiledevice-stylesheet.css">
 
-		body {
-			font-family: Arial, sans-serif;
-			line-height: 1.6;
-		}
+    <!-- Internal CSS styles for this specific page -->
+    <style>
+        /* Reset styles for common elements */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
 
-		.bioDiv {
-			border: 5px outset rgb(0, 98, 255);
-			background-color: lightgrey;
-			text-align: center;
-		}
-	</style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Styling for the bioDiv section */
+        .bioDiv {
+            border: 5px outset rgb(0, 98, 255);
+            background-color: lightgrey;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
 
-	<!-- Header Section -->
-	<!-- Introduce the Viewer to the subject of the website -->
-	<header>
-		<h1> Kai Thunberg </h1>
-		<h2> Simple Solutions for Simple Web Sites </h2>
-	</header>
+    <!-- Header Section -->
+    <!-- Introduce the Viewer to the subject of the website -->
+    <header>
+        <h1>Kai Thunberg</h1>
+        <h2>Simple Solutions for Simple Web Sites</h2>
+    </header>
 
-	<!-- Navigation Section -->
-	<!-- Provides for fast navigation throughout the website -->
-	<nav>
-		<ul>
-			<li><a href="Bio.asp">Bio</a></li>
-			<li><a href="Scholastic Achievements.asp">Scholastic Achievements</a></li>
-			<li><a href="Career Goals.asp">Career Goals</a></li>
-			<li><a href="Interests.asp">Interests</a></li>
-			<li><a href="Contact.asp">Contact</a></li>
-		</ul>
-	</nav>
+    <!-- Navigation Section -->
+    <!-- Provides for fast navigation throughout the website -->
+    <nav>
+        <ul>
+            <!-- Navigation links to different sections of the website -->
+            <li><a href="Bio.asp">Bio</a></li>
+            <li><a href="Scholastic Achievements.asp">Scholastic Achievements</a></li>
+            <li><a href="Career Goals.asp">Career Goals</a></li>
+            <li><a href="Interests.asp">Interests</a></li>
+            <li><a href="Contact.asp">Contact</a></li>
+        </ul>
+    </nav>
 
-	<!-- Main Content Section -->
-	<main>
+    <!-- Main Content Section -->
+    <main>
 
-		<!-- Give a brief introduction for the webpage -->
-		<section class="bioDiv">
-			<h3><u>Contact Information:</u></h3>
-			<ul>
-				<li><a href="Name">Name</a></li>
-				<li><a href="Email Address">Email Address</a></li>
-				<li><a href="Phone Number">Phone Number</a></li>
-			</ul>
-		</section>
+        <!-- BioDiv Section -->
+        <!-- Contains contact information -->
+        <section class="bioDiv">
+            <h3><u>Contact Information:</u></h3>
+            <ul>
+                <!-- Links to specific contact information -->
+                <li><a href="Name">Name</a></li>
+                <li><a href="Email Address">Email Address</a></li>
+                <li><a href="Phone Number">Phone Number</a></li>
+            </ul>
+        </section>
 
-		<section class="primary-content">
-			<!-- Essential content for mobile viewport -->
-			<article>
-				<h1>Contact Info</h1>
-				<ul>
-					<li>Name: Kai Thunberg</li>
-					<li>Email Address: <a href="mailto:ke.thunberg@pack.csupueblo.edu">ke.thunberg@pack.csupueblo.edu</a></li>
-					<li>Phone Number: (909) 234-8732</li>
-					<li>Location:
-						<br>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3130.855515648578!2d-104.579911!3d38.3060152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8713a3ee3c23cbc9%3A0xdf2327b69b74e025!2sColorado%20State%20University-Pueblo%2C%202200%20Bonforte%20Blvd%2C%20Pueblo%2C%20CO%2081001!5e0!3m2!1sen!2sus!4v1700005143574!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-					</li>
-				</ul>
-			</article>
-		</section>
+        <!-- Primary Content Section -->
+        <section class="primary-content">
+            <!-- Essential content for mobile viewport -->
+            <article>
+                <h1>Contact Info</h1>
+                <ul>
+                    <!-- Contact details -->
+                    <li>Name: Kai Thunberg</li>
+                    <li>Email Address: <a href="mailto:ke.thunberg@pack.csupueblo.edu">ke.thunberg@pack.csupueblo.edu</a></li>
+                    <li>Phone Number: (909) 234-8732</li>
+                    <li>Location:
+                        <br>
+                        <!-- Google Maps embed for location -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3130.855515648578!2d-104.579911!3d38.3060152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8713a3ee3c23cbc9%3A0xdf2327b69b74e025!2sColorado%20State%20University-Pueblo%2C%202200%20Bonforte%20Blvd%2C%20Pueblo%2C%20CO%2081001!5e0!3m2!1sen!2sus!4v1700005143574!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </li>
+                </ul>
+            </article>
 
-		<aside class="secondary-content">
-			<!-- Additional content or less essential content -->
-			<p>
-				<h3>Please feel free to reach out to me with any questions or inquiries. Thank you.</h3>
-			</p>
-		</aside>
+            <!-- Contact Form Section -->
+            <section>
+                <h2>Contact Form:</h2>
+                <h4>This information is being collected for a research project. Thank you for your participation.</h4>
+                <form action="#" method="post">
+                    <!-- Form fields for user input -->
+                    <label for="Sex-(M or F)">Sex-(M or F)</label>
+                    <input type="text" id="Sex-(M or F)" name="Sex-(M or F)" required>
 
-	</main>
+                    <label for="favorite-food">Favorite Food:</label>
+                    <input type="text" id="favorite-food" name="favorite-food" required>
 
-	<footer>
-		<!-- Add a Copyright symbol showing ownership as well as a contact email -->
-		<center>
-			<p>©2023 MyWebsite. All rights reserved. <br> Contact Email: <a href="mailto:ke.thunberg@pack.csupueblo.edu">ke.thunberg@pack.csupueblo.edu</a></p>
-		</center>
-	</footer>
+                    <label for="favorite-color">Favorite Color:</label>
+                    <input type="text" id="favorite-color" name="favorite-color" required>
+
+                    <label for="favorite-animal">Favorite Animal:</label>
+                    <input type="text" id="favorite-animal" name="favorite-animal" required>
+
+                    <label for="favorite-subject">Favorite School Subject:</label>
+                    <input type="text" id="favorite-subject" name="favorite-subject" required>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+
+        </section>
+
+        <!-- Sidebar Section -->
+        <aside class="secondary-content">
+            <!-- Additional content or less essential content -->
+            <p>
+                <h3>Please feel free to reach out to me with any questions or inquiries. Thank you.</h3>
+            </p>
+        </aside>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Copyright and contact information -->
+        <center>
+            <p>©2023 MyWebsite. All rights reserved. <br> Contact Email: <a href="mailto:ke.thunberg@pack.csupueblo.edu">ke.thunberg@pack.csupueblo.edu</a></p>
+        </center>
+    </footer>
 </body>
 
 </html>

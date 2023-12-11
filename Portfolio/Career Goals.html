@@ -1,25 +1,56 @@
 <!DOCTYPE html>
-<!-- Created by: Kai Thunberg File Name: Personal Portfolio Date: December 10, 2023 -->
+<!-- 
+    Created by: Kai Thunberg
+    File Name: Personal Portfolio
+    Date: December 10, 2023
+-->
 
 <html lang="en">
 
 <head>
+    <!-- Meta tags for character set and title -->
     <meta charset="utf-8">
     <title>Career Goals</title>
+    
+    <!-- External stylesheets for desktop and mobile devices -->
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/mobiledevice-stylesheet.css">
+
+    <!-- Internal styles for additional table styling -->
+    <style>
+        /* Additional styling for the table */
+        .technological-proficiencies-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .technological-proficiencies-table th,
+        .technological-proficiencies-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .technological-proficiencies-table th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 
 <body>
 
     <!-- Header Section -->
     <!-- Introduce the Viewer to the subject of the website -->
-    <h1> My Career Goals </h1>
+    <header>
+        <h1>My Career Goals</h1>
+    </header>
 
     <!-- Navigation Section -->
     <!-- Provides for fast navigation throughout the website -->
     <nav>
         <ul>
+            <!-- Navigation links to different sections of the website -->
             <li><a href="Bio.asp">Bio</a></li>
             <li><a href="Scholastic Achievements.asp">Scholastic Achievements</a></li>
             <li><a href="Career Goals.asp">Career Goals</a></li>
@@ -32,6 +63,7 @@
     <!-- Give a brief introduction for the website -->
     <main>
         <p>
+            <!-- Detailed content about career goals and aspirations -->
             In my IT career journey, my overarching goal is a continuous pursuit of knowledge and growth. I'm committed to staying at the forefront
             of the industry by actively seeking new certifications that validate my skills and enhance my professional credibility. Beyond specialization,
             I aim to diversify my skill set, exploring areas beyond my immediate focus to become a more versatile and adaptable IT professional.
@@ -43,15 +75,51 @@
             that personal well-being remains a priority. Ultimately, my IT journey is driven by a passion for innovation, a commitment to mentorship, and
             a deep appreciation for the dynamic and ever-evolving nature of the tech landscape.
         </p>
-        <div class="career-goals-container"></div>
+
+        <!-- Table to showcase technological proficiencies -->
+        <table class="technological-proficiencies-table">
+            <thead>
+                <tr>
+                    <!-- Table headers for technology, proficiency level, and experience -->
+                    <th>Technology</th>
+                    <th>Proficiency Level</th>
+                    <th>Experience (Years)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- Table rows for different technologies and proficiency levels -->
+                    <td>Linux</td>
+                    <td>Advanced</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Intermediate</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Beginner</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Windows Administration</td>
+                    <td>Intermediate</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
+    <!-- Footer Section -->
     <footer>
-        <!-- Add a Copyright symbol showing ownership as well as a contact email -->
-        <center>
-            <p>Copyright 2023 My Awesome Website.© All rights reserved. <br> Contact us at Email: <a
-                    href="mailto:ke.thunberg@pack.csupueblo.edu">ke.thunberg@pack.csupueblo.edu</a></p>
-        </center>
+        <!-- Copyright and contact information -->
+        <p>
+            Copyright 2023 My Awesome Website.© All rights reserved.
+            <br>
+            Contact us at Email: <a href="mailto:ke.thunberg@pack.csupueblo.edu">ke.thunberg@pack.csupueblo.edu</a>
+        </p>
     </footer>
 </body>
 
